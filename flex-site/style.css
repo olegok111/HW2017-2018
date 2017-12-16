@@ -1,0 +1,76 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+
+body {
+  background-color: white;
+  font-family: "Open Sans", sans-serif;
+  padding: 5px 25px;
+  font-size: 18px;
+  margin: 0;
+  color: #444;
+}
+
+h1 {
+  font-family: "Merriweather", serif;
+  font-size: 32px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fafad2;
+  height: 75px;
+  font-family: "Times New Roman", serif;
+  font-size: 26px;
+  border-bottom: 2px dotted black;
+}
+
+footer {
+  background-color: #fafad2;
+  border-top: 2px dotted black;
+}
+
+main {
+  display: flex;
+  height: 500px;
+  flex-direction: column;
+  flex-wrap: wrap-reverse;
+  color: white;
+  background-color: #00004d;
+}
+
+.block {
+  height: 125px;
+  border: 1px solid white;
+}
+
+.hometown {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.hometown-img img {
+  height: 100px;
+}
+
+.hometown-img {
+  display: flex;
+  align-items: center;
+}
+
+.hometown-txt {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.hometown-pics {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
