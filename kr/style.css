@@ -1,0 +1,17 @@
+body {
+	display: grid;
+	grid-template-rows: 60px 25% 25% 25% 25% 20px;
+	grid-template-columns: 100%;
+}
+
+header {
+	background-color: #d9ff82;
+}
+
+.menu {
+	background-color: yellow;
+}
+
+.new {
+	background-color: #ffffb2;
+}
