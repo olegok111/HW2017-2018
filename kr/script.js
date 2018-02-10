@@ -1,7 +1,6 @@
-// 
-a = prompt("Введите а");
-b = prompt("Введите b");
-z = prompt("Введите знак");
+п»їa = prompt("input a");
+b = prompt("input b");
+z = prompt("input sign");
 a = Number(a);
 b = Number(b);
 var ans;
@@ -14,6 +13,6 @@ if (z==="+") {
 } else if (z==="/" || z==="\\") {
 	ans = a/b;
 } else {
-	ans = "Неправильный знак";
+	ans = "incorrect sign";
 }
 alert(ans);

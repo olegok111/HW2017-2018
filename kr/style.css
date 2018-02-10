@@ -9,9 +9,42 @@ header {
 }
 
 .menu {
+	display: grid;
+	grid-template-columns: 33% 33% 34%;
 	background-color: yellow;
 }
 
+.menu div {
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+
+.menu .li1 {
+	grid-area: 1/1/1/2;
+}
+
+.menu .li2 {
+	grid-area: 1/2/1/3;
+}
+
+.menu .li3 {
+	grid-area: 1/3/1/4;
+}
+
 .new {
+	display: grid;
+	grid-template-rows: 33% 67%;
 	background-color: #ffffb2;
+}
+
+.new h2 {
+	grid-area: 1/1/1/3;
+}
+
+.new img {
+	grid-area: 2/1/2/2;
+}
+
+.new p {
+	grid-area: 2/2/2/3;
 }
